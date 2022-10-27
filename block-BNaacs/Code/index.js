@@ -14,6 +14,10 @@ var app = express();
 app.use(express.json());
 app.set('view engine', 'ejs');
 app.set('views', pathname.join(__dirname, 'views'));
+app.use((req, res, next) => {
+  res.locals.greet = 'Hello Everyone';
+  next();
+});
 app.post('/schools', (req, res, next) => {
   School.create(req.body, (err, school) => {
     if (err) next(err);

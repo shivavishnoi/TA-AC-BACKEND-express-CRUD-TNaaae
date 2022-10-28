@@ -15,3 +15,6 @@ In previous application
 - get id using req.params.id
 - fetch user from database using id received from params
 - render singleUser.ejs with single user information.
+
+
+/// Completed exercise in Assignment-1,  block-BNaacv of TA-AC-BACKEND-express-CRUD-TNaaae

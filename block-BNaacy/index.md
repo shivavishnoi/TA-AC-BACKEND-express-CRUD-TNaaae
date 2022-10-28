@@ -11,3 +11,5 @@ Create a user resource
 
 - if success, return index page i.e. "/" path
 - if error, return back to users create form
+
+/// COmpleted exercie in Assignment-1,  block-BNaacy of TA-AC-BACKEND-express-CRUD-TNaaae

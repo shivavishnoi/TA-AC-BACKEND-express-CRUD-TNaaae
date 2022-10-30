@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet"> */
+
+/* resets */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: 'Ubuntu', sans-serif;
+  color: #150052;
+  background-color: #5bccf6;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* user form page */
+h1 {
+  font-size: 3rem;
+
+  padding: 1rem 0.5rem;
+}
+input,
+textarea {
+  width: 80%;
+  padding: 0.5rem;
+}
+form {
+  width: 40%;
+  margin: 0 auto;
+}
+button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  width: 85%;
+}
+input:focus {
+  outline: none;
+  border: 2px solid rgb(52, 85, 137);
+}
+textarea:focus {
+  outline: none;
+  border: 2px solid rgb(52, 85, 137);
+}
+label {
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+}
+.tl {
+  background-color: #150052;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+.user-button {
+  background-color: #150052;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 0.3rem;
+  margin: 0.3rem;
+  display: inline-block;
+}
+ul {
+  margin: 1rem 0 0 1rem;
+}
+li {
+  margin-bottom: 1rem;
+}
+h3 {
+  font-size: 1.5rem;
+}

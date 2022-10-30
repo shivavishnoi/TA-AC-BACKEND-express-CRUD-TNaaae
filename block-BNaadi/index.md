@@ -10,10 +10,12 @@ Handle CRUD operation and display user content in respective HTML pages using ej
 
 Since we are going to save user data into database , create a user schema(inside models directory) with fields:
 
-- name
-- email
-- age
-- bio
+name!
+email!
+age
+address
+bio
+hobbies: String
 
 create a User model based on above schema and export it.
 

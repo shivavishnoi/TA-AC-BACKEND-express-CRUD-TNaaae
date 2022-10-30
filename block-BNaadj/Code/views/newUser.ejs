@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User-Dairy</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to User-Dairy</h1>
+      <a class="tl" href="/users">All Users</a>
+    </header>
+
+    <hr />
+    <form action="/users" method="POST">
+      <label for="name">Name</label>
+      <input type="text" name="name" placeholder="Username" id="name" />
+      <label for="email">Email</label>
+      <input type="email" name="email" placeholder="EmailId" id="email" />
+      <label for="age">Age</label>
+      <input type="text" name="age" placeholder="age" id="age" />
+      <label for="address">Country</label>
+      <input type="text" name="address" placeholder="Country" id="address" />
+      <label for="bio">Bio</label>
+      <textarea
+        name="bio"
+        id="bio"
+        cols="40"
+        rows="5"
+        placeholder="Your Bio"
+      ></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
